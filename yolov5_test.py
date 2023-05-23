@@ -3,6 +3,7 @@ from PIL import Image
 import cv2
 import numpy
 import torchvision
+import time
 
 # Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
